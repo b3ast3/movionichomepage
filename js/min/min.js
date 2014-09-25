@@ -15,6 +15,5 @@ dot_navigation: true, // Dot navigation is used to indicate and navigate between
 dot_alignment: 'center', // left, center or right.
 arrows: true // Arrows are used to navigate back and forth between the slides.
 });
-});
 
 });
