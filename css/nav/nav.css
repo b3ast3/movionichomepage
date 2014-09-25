@@ -16,6 +16,11 @@ header{	background-color:#1d1d1d;
 	background-color: rgba(0, 0, 0, .4);
 	
 }
+.logo{
+height:45px;
+position:absolute;
+top:-2px;
+}
 footer{	
 	color:#fff;
 	height:35px;
@@ -36,10 +41,11 @@ footer{
 }
 .topnavshort{
 	display:block;
-	padding:10px 0 0 0;
+	padding:10px 35% 0 0;
 	text-align:center;
 	cursor:pointer;
 	font-size:25px;
+	
 	
 }
 .topnavbar{
@@ -54,7 +60,7 @@ footer{
 }
 .topnavbar{
 	display:block;
-	padding:10px 0 0 0px;
+	padding:10px 0 0 20px;
 	cursor:pointer;
 	font-size:25px;
 	
@@ -62,6 +68,7 @@ footer{
 
 }
 #topnavtitle{
+	visibility:hidden;
 	float:left;
 	padding: 0 20px 0 20px;
 }
