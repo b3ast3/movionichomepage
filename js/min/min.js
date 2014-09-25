@@ -2,7 +2,6 @@ $(document).ready(function(){
 
  $('.slider').bxSlider();
 
-  $('.slider').bxSlider();
   
 $('.slider').bxSlider({
   minSlides: 1,
