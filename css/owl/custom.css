@@ -127,11 +127,11 @@ padding: 8px 12px;
 	border-radius: 0px;
 	text-align: center;
 }
-#owl-example .item img{width: 100%;
-   
-position:absolute;	
-z-index:-1;	margin: 0 auto;
+#owl-example .item img{width: 100%;   
+	position:absolute;	
+	z-index:-1;	margin: 0 auto;
 	display: block;
+	
 }
 #owl-example .item h3{
  
