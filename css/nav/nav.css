@@ -17,11 +17,30 @@ header{	background-color:#1d1d1d;
 	
 	
 }
-.logo{
-height:45px;
-position:absolute;
-top:-2px;
+#mainsearch{
+	
+	background-color:rgba(0, 0, 0, 0);
+	border:1px solid rgba(0, 0, 0, .4);
+	width:30%;	
+    position:absolute;    
+	top:7px;       
+	border-radius:10px;
+	height:20px;
+	 
 }
+input[placeholder] {  
+    color: green;  
+}
+#mainsearch:focus{
+
+		
+	background-color:rgba(255, 255, 255, 1); 
+}
+#mainsearch:hover{
+	
+	background-color:rgba(255, 255, 255, 0.95); 
+}
+
 footer{	
 	color:#fff;
 	height:35px;
@@ -45,7 +64,11 @@ padding:0 0 0 20px;
 float:right;
 padding:0 20px 0 0px;
 }
-
+@media screen and (max-width:800px){
+.topnavrightitems{
+	display:none;
+}
+}
 @media screen and (max-width:600px){
 .topslider{
 	display:none;
@@ -62,10 +85,22 @@ padding:0 20px 0 0px;
 .topnavbar{
 	display:none;
 }
+.logo{
+height:45px;
+position:absolute;
+top:-2px;
 
+}
 }
 
 @media screen and (min-width:600px){
+
+.logo{
+height:45px;
+position:absolute;
+top:-2px;
+left:20px;
+}
 .topnavshort{
 	display:none;
 }
@@ -87,12 +122,13 @@ padding:0 20px 0 0px;
 	float:left;
 	padding: 0 12px ;
 	color: rgba(255, 255, 255, 1);
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: 300;
 	height: 45px;
 }
 .topnavleftitems:hover{
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 153, 0, 1);
+	text-decoration: none;
 }
 
 .topnavrightitems{
